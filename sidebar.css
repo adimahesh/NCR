@@ -1,0 +1,271 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body{
+    height: 100%;
+    width: 100%;
+    display: block;
+   
+}
+.join{
+    display: flex;
+    flex-direction: row;
+}
+
+.fullslide{
+    position: relative;
+   min-height: 100vh;
+   width: 15%;
+    
+    /* flex-direction: row; */
+    gap:30px;
+   
+   
+}
+
+.occupy{
+    position: relative;
+    width: 100%;
+}
+.edit{
+    
+    height: 85%;
+    width: 100%;
+    background-color: whitesmoke;
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+
+
+}
+.ele{
+    min-height: 70vh;
+    width: 100%;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    /* padding: 15px; */
+    text-align: left;
+    width: 100%;
+    
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+    /* left: 10px; */
+  
+    
+   
+    
+}
+.ele a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 12px;
+    text-align: left;
+    position: relative;
+   padding-top: 15px;
+    
+}
+/* a:hover{
+    background-color: blueviolet;
+  } */
+.side{
+    position: relative;
+    min-height: inherit;
+    width: 100%;
+   
+    
+}
+.booksection{
+    min-height: inherit;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grade{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-height: 95vh;
+    margin-left: 0px;
+    position: relative;
+    /* right: 15px; */
+    bottom: 10px;
+
+   
+}
+ .table1{
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+ }
+ .table1 td{
+    border: 1px solid black;
+    width: 70vw;
+    padding: 10px;
+    text-align: left;
+ }
+
+ .table2{
+    border-collapse: collapse;
+    margin-top: 10px;
+
+ }
+ .table2 td{
+    border: 1px solid white;
+    width: 70vw;
+    padding: 10px;
+    text-align: left;
+
+ }
+ .lasttable{
+    border-collapse: collapse;
+    position: relative;
+    top: 10px;
+    width: 65%;
+ }
+ .lasttable td{
+    border: 1px solid white;
+    width: 70vw;
+    padding: 10px;
+    text-align: left;
+    padding-right: 70px;
+
+ }
+ .attendence{
+     background-color: rgba(67, 98, 254, 0.826);
+ }
+ .remain{
+    background-color: skyblue;
+ }
+    .fix{
+        background-color: darkblue;
+        color: white;
+    }
+    .twohead{
+        background-color: darkblue;
+    }
+    .table2{
+        border: 1px solid white;
+      background-color: rgba(155, 217, 241, 0.86);
+    }
+.middle{
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+     width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.grade2{
+    position: relative;
+    background-color: skyblue;
+    padding: 30px;
+    top: 10px;
+    text-align: left;
+    padding-right: 150px;
+    bottom: 20px;
+    
+    
+   
+}
+
+.bottom{
+    display: inline;
+}
+.notes{
+    height: 120px;
+    width: 65%;
+     display: inline-block; 
+    position: relative; 
+    /* right: 190px; */
+    background-color: skyblue;
+    text-align: left;
+   /* top: 30px; */
+    
+    
+    right: 10px;
+    
+}
+.atmostbottom{
+    gap: 10px;
+    position: relative;
+    /* bottom: 10px; */
+    display: inline-block;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+     width: 100%;
+    top: 20px;
+    left: 12.5px;
+
+   
+    
+}
+
+
+.gradesystem{
+    background-color: blanchedalmond;
+    display: inline-block;
+    height: 120px;
+    width: 330px;
+    /* margin-top:20px ; */
+    position: relative;
+    /* bottom: 42px;
+    left: 10px; */
+
+
+}
+
+.option:hover{
+    background-color: blueviolet;
+   
+}
+.option{
+  
+   width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+  
+}
+img{
+    height: 18px;
+    width: 18px;
+    /* padding-left: 2px;
+    margin-top: 3px; */
+}
+.navbar{
+    display: inline-block;
+    min-height: 5vh;
+   width: 70%;
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+.notify{
+    position: relative;
+  
+   display: inline-block;
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+  
+}
